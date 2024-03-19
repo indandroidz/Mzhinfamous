@@ -53,12 +53,12 @@ def predict(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Bot token
-    TOKEN = os.environ.get("TOKEN")
+    TOKEN = os.environ.get("7130881873:AAFrL8yS-4za9aeB3Yd2LSk3PJxBmIk_7RM")
     # Channel usernames
     CHANNEL_USERNAMES = ["@boss_igcc_store", "@boss_ig_cc_chats"]
 
     # Create the Updater and pass it the bot's token
-    updater = Updater(TOKEN)
+    updater = Updater(token=7130881873:AAFrL8yS-4za9aeB3Yd2LSk3PJxBmIk_7RM)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
